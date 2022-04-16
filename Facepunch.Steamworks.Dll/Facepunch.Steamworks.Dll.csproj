@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <Authors>Ellpeck</Authors>
+        <Description>An extension for Facepunch.Steamworks and Steamworks.NET that ships with the Steam redistributables for every platform</Description>
+        <PackageTags>facepunch steamworks steamworks.net dll native libsteam_api steam_api steam_api64</PackageTags>
+        <PackageProjectUrl>https://github.com/Ellpeck/Facepunch.Steamworks.Dll</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Ellpeck/Facepunch.Steamworks.Dll</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <VersionPrefix>1.53</VersionPrefix>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Content Include="runtimes\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <PackagePath>runtimes</PackagePath>
+        </Content>
+        <None Include="_._" Pack="true" PackagePath="lib/netstandard2.0"/>
+        <None Include="../README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>
