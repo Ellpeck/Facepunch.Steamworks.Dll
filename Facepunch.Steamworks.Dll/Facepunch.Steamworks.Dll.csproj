@@ -10,7 +10,7 @@
         <RepositoryUrl>https://github.com/Ellpeck/Facepunch.Steamworks.Dll</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <VersionPrefix>1.53</VersionPrefix>
+        <VersionPrefix>1.62</VersionPrefix>
     </PropertyGroup>
     
     <ItemGroup>
